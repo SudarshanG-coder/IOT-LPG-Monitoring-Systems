@@ -1,12 +1,20 @@
-# 🔥 IoT Enabled Surveillance & Alerting System for LPG Containers
+# 🔥 IoT-Enabled LPG Leak Monitoring & Alert System
 
-> 🛡️ Final Year Capstone Project (2023–2024)  
-> 🏆 Recognized at **KSCST Project Exhibition 2024**  
-> 📃 Published in IEEE Conference – [Download Paper](./documentation/ieee-paper.pdf)
+* An end-to-end smart surveillance system designed to detect **LPG gas leaks** and instantly alert users through **GSM-based SMS**, while monitoring live data through a **Firebase dashboard**.
+
+* Built using **NodeMCU**, **MQ2 Gas Sensor**, and **GSM Module**, this system is ideal for homes, restaurants, and industrial kitchens where gas safety is critical.
 
 ---
 
-## 📌 Overview
+## 🎯 Achievements
+
+- 🏅 Recognized by **Karnataka State Council for Science and Technology (KSCST)**
+- 📃 Paper presented at an IEEE-sponsored conference – [Download Paper](./documentation/ieee-paper.pdf)
+- 🔐 Designed for real-world LPG safety and smart alerting
+  
+---
+
+## 📷 System Overview
 
 This project presents a smart IoT-based system that improves **household LPG safety** by combining real-time monitoring, fire/leak detection, and automation. The device:
 
@@ -20,17 +28,15 @@ This project presents a smart IoT-based system that improves **household LPG saf
 
 ---
 
-## 🧠 Key Technologies Used
+## 🚀 Key Features
 
-- Arduino UNO R3  
-- NodeMCU ESP8266 (for cloud/web dashboard)  
-- GSM SIM800L Module  
-- Load Cell with HX711 Amplifier  
-- MQ-6 Gas Sensor & Flame Sensor  
-- 16x2 LCD Display  
-- Buzzer & Servo Motor  
-- Arduino IDE + KiCad
-
+- 🔍 Real-time LPG leak detection using **MQ2 Gas Sensor**
+- 📲 Immediate SMS alerts via **SIM800L GSM Module**
+- ☁️ Live gas concentration data uploaded to **Firebase**
+- 📊 Cloud dashboard for remote monitoring
+- ⚠️ Visual + audio alerts on threshold breach
+- 💾 Data logging for further analysis
+  
 ---
 
 ## 🏗️ System Architecture
@@ -41,15 +47,7 @@ This project presents a smart IoT-based system that improves **household LPG saf
 - Optional: ThingSpeak IoT Dashboard
 
 🖼️ *Block Diagram and Circuit Schematic:*  
-See `hardware/` folder for diagrams and PCB layout images.
-
----
-
-## 🎯 Achievements
-
-- 🏅 Recognized by **Karnataka State Council for Science and Technology (KSCST)**
-- 📃 Paper presented at an IEEE-sponsored conference  
-- 🔐 Designed for real-world LPG safety and smart alerting
+     See `hardware/` folder for diagrams and PCB layout images.
 
 ---
 
@@ -71,19 +69,19 @@ See `hardware/` folder for diagrams and PCB layout images.
 4. Flame sensor detects fire → activates alert system
 5. Real-time values displayed on LCD and updated to ThingSpeak
 
-## 👨‍💻 Team
+---
 
-| Name                   | Email                                                             |
-| ---------------------  | ----------------------------------------------------------------- |
-| Team Lead: Sudarshan G | [gsudarshan925@gmail.com](mailto:gsudarshan925@gmail.com)         |
-| Shreyas S R            | [shreyasreddyssr15@gmail.com](mailto:shreyasreddyssr15@gmail.com) |
-| S Upendra              | [lukkyupendra2002@gmail.com](mailto:lukkyupendra2002@gmail.com)   |
-| Guide: Dr. S Bhargavi  | [bhargavi@sjcit.ac.in](mailto:bhargavi@sjcit.ac.in)               |
+## 🧑‍💻 My Contributions
+
+- Designed the hardware layout & sensor integration
+- Programmed leak detection logic with Arduino
+- Integrated GSM for alert messaging
+- Created Firebase dashboard for real-time monitoring
+- Wrote the final report and presented at IEEE conference 
 
 ---
 
 ## 🔗 Resources
-
 
 * 📘 [Final Report](./documentation/final-report.pdf)
 * 📑 [IEEE Paper](./documentation/ieee-paper.pdf)  
@@ -94,5 +92,6 @@ See `hardware/` folder for diagrams and PCB layout images.
 ## 📬 Contact Me
 
 * 💼 [LinkedIn](https://linkedin.com/in/YOUR-LINK-HERE)
+* 🔗 [Portfolio](https://sudarshang-portfoilo.netlify.app/)
 * 📧 [gsudarshan925@gmail.com](mailto:gsudarshan925@gmail.com)
 
