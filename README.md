@@ -93,5 +93,5 @@ This project presents a smart IoT-based system that improves **household LPG saf
 
 * 💼 [LinkedIn](https://www.linkedin.com/in/sudarshan-g-ai/)
 * 🔗 [Portfolio](https://sudarshang-portfoilo.netlify.app/)
-* 📧 [gsudarshan925@gmail.com](mailto:gsudarshan925@gmail.com)
+* 📧 [Email](mailto:gsudarshan925@gmail.com)
 
