@@ -85,7 +85,7 @@ This project presents a smart IoT-based system that improves **household LPG saf
 
 * 📘 [Final Report](./documentation/final-report.pdf)
 * 📑 [IEEE Paper](./documentation/ieee-paper.pdf)  
-* 🏆 [KSCST Recognition Letter](./documentation/KSCST_Recognition_Letter.pdf)
+* 🏆 [KSCST Recognition Letter](documentation/KSCST_Recognition_Letter.pdf.pdf)
 
 ---
 
